@@ -1,9 +1,12 @@
+import Cabecalho from "./components/Cabecalho";
+
 export default function App(){
     document.title = "HOME";
 
 // SPA: (S)ingle (P)age (A)pplication, mas não é estático
   return(
     <div>
+      <Cabecalho></Cabecalho>
       <h1>App</h1> 
       <div>
         <figure>
